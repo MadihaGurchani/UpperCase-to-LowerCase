@@ -6,10 +6,12 @@ using namespace std;
 void convertToLowercase (char *);
 int main ()
 {
- char s[30] = "WELCOME TO VIRTUAL UNIVERSITY";
+ char s[30];
+ cout<<"Please input a string: ";
+ cin>> s; 
  cout << "The string before conversion is: " << s << endl ;
 convertToLowercase ( s) ; //function call
- cout << "“The string after conversion is: " << s ;
+ cout << "â€œThe string after conversion is: " << s ;
 }
 void convertToLowercase (char *sptr)
 {
